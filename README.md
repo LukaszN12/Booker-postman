@@ -35,6 +35,13 @@ API documentation can be found at: https://restful-booker.herokuapp.com/apidoc/i
 1. Click on the "Environment" dropdown in the top left corner in Postman.
 2. Click on the "New" button to create a new environment and choose "Environment" icon.
 3. Give your environment a name.
-4. Create a "baseURL" variable. You should enter the value "https://restful-booker.herokuapp.com/booking" into the "baseURL" variable. The URL variable is named {{baseURL}}**.
+4. Create a "baseURL" variable. You should enter the value "https://restful-booker.herokuapp.com/booking" into the "baseURL" variable or yoy can download and then import environment from "https://github.com/LukaszN12/Booker-postman/blob/main/Produkcja.postman_environment.json". The URL variable is named {{baseURL}}.
 5. Click "Save" button to save the environment.
 6. Click on the "Environment" dropdown in the top left corner and select the environment you just created.</p>
+
+#### <a name="four">:runner: Run collection and testing</a>
+1. Click on the "Collections" icon in Postman.
+2. From the list of collections, select the one named "Trello - REST API" and click on the icon with three dots that appears when you hover over the collection name.
+3. Select "Run collection" from the list.
+4. Click right button.
+5. Click "Run collection"
